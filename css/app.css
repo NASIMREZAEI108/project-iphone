@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(101, 44, 148);
+    direction: rtl;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+header {
+    padding-top: 40px;
+}
+
+header .row {
+    justify-content: flex-end;
+}
+
+header .menu {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* text-align: left; */
+}
+
+header .menu ul {
+    list-style: none;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: rgb(194, 190, 182);
+    transition: all 300ms;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+}
+
+header .menu ul li a:hover {
+    color: rgb(253, 252, 251);
+    border-color: #fff;
+}
+
+
+/* End header */
+
+
+/* start hero */
+
+main .hero h2 {
+    font-size: 40px;
+    font: bold;
+    color: rgb(240, 237, 241);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main .hero p {
+    width: 600px;
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(207, 14, 207);
+}
+
+img {
+    width: 450px;
+    height: 550px;
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+main .hero img:hover {
+    background-color: rgb(101, 44, 148);
+    color: blueviolet;
+    border: 10px solid rgb(101, 44, 148);
+    border-radius: 15px;
+    transition: all 300ms;
+    overflow: hidden;
+}
+
+
+/* start category */
+
+main .category {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(245, 243, 247);
+}
+
+main .category h4 {
+    font-size: 13px;
+    color: rgb(104, 15, 145);
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+main .category p {
+    font-size: 24px;
+    font: bold;
+    color: rgb(79, 10, 124);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* end category */
+/* start icon */
+
+main .container .col {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: cornsilk;
+}
+ 
+ main .container .categorysingle {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: cornsilk;
+    box-shadow: 0 0 20px rgb(146, 104, 104);
+}
+
+main .container h4 {
+    font-size: 25px;
+    font: bold;
+    color: rgb(79, 10, 124);
+    margin-top: 52px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+main .container p {
+    font-size: 17px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    color: rgb(79, 10, 124);
+}
+/* end category */
+/* start iphon */
+.iphone {
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.iphone .container .row {
+    align-items: center;
+}
+.iphone .container .row .col-img,
+.iphone .container .row .col-text {
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.iphone .container .row .col-text .h4 {
+    font-size: 25px;
+    font: bold;
+    color: rgb(79, 10, 124);
+    margin-top: 52px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.iphone .container .row .col-text .h5 {
+    font-size: 25px;
+    font: bold;
+    background-color:rgb(248, 23, 184);
+    color: rgb(245, 238, 243);
+    border: 5px solid rgb(101, 44, 148);
+}
+/* end iphon */
+/* start last section */
+.iphone1 {
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.iphone1 .container .row {
+    align-items: left;
+}
+.iphone1 .container .row .col-img,
+.iphone1 .container .row .col-text {
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.iphone1 .container .row .col-text .h4 {
+    font-size: 25px;
+    font: bold;
+    color: rgb(79, 10, 124);
+    margin-top: 52px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.iphone1 .container .row .col-text .p {
+    font-size: 25px;
+    font: bold;
+    background-color:rgb(248, 23, 184);
+    color: rgb(245, 238, 243);
+    border: 5px solid rgb(101, 44, 148);
+}
+
+
+
+   
